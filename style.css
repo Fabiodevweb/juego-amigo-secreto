@@ -8,13 +8,6 @@
     --color-white: #FFFFFF;
 }
 
-html, body {
-    margin: 0;
-    padding: 0;
-    min-height: 100vh;
-    overflow: auto;
-}
-
 /* Estilos generales */
 * {
     margin: 0;
@@ -23,6 +16,7 @@ html, body {
 }
 
 body {
+    height: 100vh;
     background-color: var(--color-primary);
     display: flex;
     justify-content: center;
@@ -42,7 +36,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 10px 0 0;
+    padding: 40px 0 0;
 }
 
 /* Sección de entrada */
