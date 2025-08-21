@@ -27,6 +27,7 @@ function sortearAmigo() {
         nameSecret.textContent = `Tu amigo secreto es ${nameFriends[numberSort]}`;
         console.log(nameSecret);
         friendSecret.appendChild(nameSecret);
+        friend.value = '';
         nameFriends = [];
     } else {
         alert('Ingresa una lista de Amigos');
